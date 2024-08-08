@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YUB</title>
+    <link rel="stylesheet" href="yub.css">
+</head>
+<body>
+    <div class="input-container">
+        <input type="text" id="video-url" placeholder="Enter YouTube video URL">
+        <button onclick="loadVideo()">Load Video</button>
+    </div>
+    <div id="video-container">
+        <iframe id="video-frame" width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <h1 id="video-title">title</h1>
+    <div class="panel"><p id="video-description"></p></div>
+
+    <script src="yub.js">
+        
+    </script>
+</body>
+</html>
